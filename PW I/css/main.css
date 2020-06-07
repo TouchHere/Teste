@@ -1,0 +1,189 @@
+/* -- INÍCIO MENU -- */
+header{
+	position: relative;
+	padding: 0;
+	height: 11;
+}
+#main-logo{
+	position: relative;
+	background-image: linear-gradient(to top ,#66b3ff,#005ce6,#005ce6, #005ce6,#005ce6,#005ce6);
+	width: 100%;
+	height: 75%;
+}
+#main-logo img{
+	width: 10em;
+	height: 8em;
+
+}
+
+#main-menu {
+	display: block;
+	position: relative;
+	text-align: center;
+	height: 3.5em;
+	background-color: #66b3ff;
+	border-bottom: 1px solid black;
+}
+#main-menu ul{
+	height: 3.5em;
+
+}
+
+#main-menu ul li{
+	display: inline-block; 
+	padding-top: 1.0em;
+	margin: 0 4% 0 4%;
+	
+}
+
+#main-menu ul li a{
+	margin: 0 3em 0 3em;
+	font-family: 'Righteous', cursive;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	text-shadow: 2px 1px black;
+	transition: 0.2s;
+}
+#main-menu ul li a:hover{
+	border-bottom: 2px solid black;
+	transition: 0.5s;
+	font-size: 90%;
+	display: block;
+}
+#main-menu ul input{
+	border-radius: 1em 0em 1em 1em;
+	border: 1px solid black;
+	padding: 0.37em;
+	background-color: white;
+	outline: 0;
+
+}
+
+/* -- FIM MENU -- */
+
+/* -- INÍCIO CORPO -- */
+
+
+#main{
+	position:flex;
+	margin: auto;
+	width: 65%;
+	height: 100%;
+	box-shadow: 1px 1px 4px 4px grey;
+	padding: 1em;
+	font-family: 'Arial';
+	display: table;
+}
+#main-top h2{
+	font-family: 'Kanit';
+	text-transform: uppercase;
+	font-size: 200%;
+	width: 100%;
+	border-bottom: 1px solid grey;
+	margin-bottom: 0.5em;
+}
+#main-top p {
+	text-indent: 1.5em;
+	text-align: justify;
+	font-family: "Josefin sans";
+	font-size: 120%;
+	width: 100%;
+	word-spacing: 2px;
+	border-bottom: 1px solid black;
+}
+
+/* -- INICIO BOXES -- */
+
+#boxes{
+	display: table;
+}
+
+.box1{
+	padding: 1px;
+	float: left;
+	margin:  1em;
+	width: 21.112%;
+	height: 15em;
+	border: 2px solid black;
+	box-shadow: 1px 2px 2px 1px grey;
+}
+
+.box1 h3{
+	word-break: break-all;
+	margin: 1em;
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom: 1px solid grey;
+}
+
+.text-box{
+	word-break: break-word;
+	margin:0 0 1em 0;
+	text-indent: 1em;
+	text-align: center;
+	word-spacing: none;
+}
+
+/* -- FIM CATEGORIAS -- */
+
+/* -- FIM CORPO -- */
+
+/* -- INÍCIO FOOTER -- */
+
+footer{
+	background-color: #999999;
+	width: 100%;
+	height: 13em;
+	bottom: 0;
+}
+
+#right-footer{
+	width: 45%;
+	text-align: center;
+	float: right;
+	margin: 2.5em;
+}
+#right-footer a img{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 1em;
+	padding-bottom: 0.5em; 
+	border-bottom: 1px solid black;
+	transition: 0.5s;
+
+}
+#right-footer a img:hover{
+	width: 55px;
+	height: 55px;
+	transition: 0.5s;
+	border-bottom: 2px solid white;
+
+}
+#left-footer{
+	
+	width: 45%;
+	text-align: center;
+	float: left;
+	margin: 4em 0; 
+	font-family: 'Kanit';
+}
+
+
+/* -- FIM FOOTER -- */
+
+/* -- classes de configuração -- */
+
+.space{
+	width: 100%;
+	border-bottom: 1px solid grey;
+	margin: 1em 0;
+
+}
+.font-zero{
+	opacity: 0;
+}
+
+/* --------------------------- */
